@@ -1,0 +1,230 @@
+/* mobaile screen */
+@media (max-width: 420px){
+    body{
+        width: 100%;
+    }
+
+    /* Start header */
+    
+    header ul> li a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 15px 5px;
+    }
+    
+    header ul> li::before {
+        top: -15px;
+    }
+    
+    header ul {
+        height: 50px ;
+    }
+
+    /* landing step */
+    .landing .land {
+        top: 0 !important;
+    }
+
+    .landing .text {
+        margin-top: 30px;
+        width: 55% !important;
+    }
+
+    .landing i {
+        transform: translateY(-100px);
+    }
+
+    /* li actove */
+    header ul .active .minuo {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        margin-top: -215px;
+    }
+
+    header ul .active {
+        position: absolute;
+        z-index: 1;
+        width: 90%;
+        margin: 0 auto;
+        height: 470px;
+        right: 0;
+        left: 0;
+        top: 145px;
+        border-bottom: 4px solid blue;
+        background-color: white;
+    }
+
+    .Article .Section {
+        margin-left: 33px;
+    }
+
+    .Testimonials {
+        padding: 50px 20px;
+    }
+
+    .box_photo .cont {
+        margin-left: 10px;
+        width: 93%;
+    }
+
+    .Features .Feature_Box .Box {
+        border: 1px solid #ccc;
+        width: 92%;
+        margin-left: 10px;
+    }
+
+    .TEAM_MEMBERS .boxs .box {
+        margin-right: 50px;
+    }
+
+    .Services .boxs {
+        margin: 0 15px;
+    }
+
+    .Work_specs .cont .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 15px;
+    }
+
+    
+.Latest_Events .box .cont_timer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(61px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 20px 55px;
+    padding: 0 55px;
+}
+
+.Latest_Events .cont form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Latest_Events .cont form input:first-child {
+    margin-bottom: 15px;
+}
+
+.Pricing_Plans .cont .box {
+    position: relative;
+    width: 80%;
+    margin-left: 35px;
+}
+
+.Discount .cont .head,
+.Discount .cont .form {
+    width: 65%;
+}
+
+.Discount .cont form {
+    width: 150%;
+}
+    
+}
+
+/* mediam screen */
+@media (max-width: 670px){
+   
+}
+
+/* max screen */
+@media (max-width: 760px){
+    /* Top_Videos */
+    .Top_Videos .cont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Top_Videos .cont .box-1, ul {
+        width: 90%;
+    }
+
+    .Top_Videos .box-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+}
+
+/* maxmam screen */
+@media (min-width: 560px) and (max-width: 800px) {
+    .Features .Box .img::after {
+        content: "";
+        border-right: 630px solid #eee0;
+    }
+    
+    .Features .Box:hover .img::after{
+        border-left: 630px solid #eee0;
+    }
+}
+
+/* maxmam screen */
+@media (max-width: 920px) {
+    /* Our_Skills  */
+    .Our_Skills .cont img{
+        display: none;
+    }
+
+    .Our_Skills .cont .box_skill {
+        width: 100%;
+    }
+}
+@media (max-width: 984px){
+    /* landing step */
+    .landing img {
+        display: none;
+    }
+
+    .landing .land {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 100px;
+    }
+
+    .landing .text {
+        text-align: center;
+        width: 30%;
+    }
+    
+    /* Work_specs */
+    .Work_specs .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    /* Latest Events */
+    .Latest_Events .box img {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1020px){
+    /* li Active */
+    header ul .active img {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 970px) and (min-width: 1050px) {
+
+}
